@@ -1,3 +1,5 @@
+//rock = 1, paper = 2, scissors = 3
+
 function Winner(p1) {
     const randomNo = Math.floor(Math.random() * 3) + 1;
     if (randomNo === 1 && p1 === 1) {
